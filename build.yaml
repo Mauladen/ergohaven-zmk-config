@@ -63,6 +63,12 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: op36_left_ruen-ergohaven-zmk
   - board: ergohaven
+    shield: op36_left
+    keymap: op36_wellum
+    snippet: studio-rpc-usb-uart zmk-usb-logging
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: op36_left_wellum-ergohaven-zmk
+  - board: ergohaven
     shield: op36_right
   - board: ergohaven
     shield: op36_qube qube dongle_screen
@@ -76,7 +82,17 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: op36_qube_ruen-ergohaven-zmk
   - board: ergohaven
+    shield: op36_qube qube dongle_screen
+    keymap: op36_wellum
+    snippet: studio-rpc-usb-uart zmk-usb-logging
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: op36_qube_wellum-ergohaven-zmk
+  - board: ergohaven
     shield: op36_left_qube
+  - board: ergohaven
+    shield: op36_left_qube
+    keymap: op36_wellum
+    artifact-name: op36_left_qube_wellum-ergohaven-zmk
 
   - board: ergohaven
     shield: k03_left
